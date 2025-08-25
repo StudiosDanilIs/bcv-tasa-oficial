@@ -1,12 +1,16 @@
 BCV-Tasa-Oficial
 
-Este es un programa en Python 🐍 diseñado para obtener la tasa de cambio oficial del Banco Central de Venezuela (BCV) para el dólar ($) y el euro (€). Es ideal para desarrolladores que necesitan integrar datos de tasas de cambio en sus proyectos, sistemas o aplicaciones.
+Este proyecto es una API RESTful desarrollada en Python 🐍 usando el framework FastAPI. Su propósito es proporcionar las tasas de cambio oficiales del Banco Central de Venezuela (BCV) para el dólar ($) y el euro (€). Utiliza técnicas de web scraping para extraer los datos directamente del sitio web del BCV y los expone a través de un endpoint en formato JSON.
 
-Características y uso
+Características clave 🚀
 
-    Acceso directo: Obtén la tasa oficial del día de forma rápida y sencilla.
+    API RESTful: Permite que otros programas y servicios se integren y consuman las tasas de cambio de manera sencilla.
 
-    Para la comunidad: Este software es de uso libre y gratuito. Si lo utilizas en tus proyectos, solo te pedimos que dejes una referencia a sus autores.
+    Datos en JSON: Las tasas se entregan en un formato estructurado y fácil de procesar.
+
+    Rendimiento optimizado: Incluye un sistema de caché que evita hacer peticiones constantes al BCV, lo que reduce la carga en su servidor y mejora la velocidad de respuesta de la API.
+
+    Uso libre: Este software es de código abierto y está disponible para la comunidad de desarrolladores.
 
 Aviso legal ⚖️
 
